@@ -47,8 +47,11 @@
   - Bob withdraws_guarantee by providing NFT tokenID
 
 ### Corresponding JSON
-Minting: {"token_id": "hero2017","receiver_id":"alice1.testnet", "metadata": {"title": "Hero-2016 model"} }
-Approval: {"token_id": "hero2017","account_id":"shop.testkrishu.testnet", "msg": "{\"rent\": 1, \"guarantee\": 5000, \"max_duration\": 2500}" }
-Borrow: {"receiver_id":"shop.testkrishu.testnet","amount":"5000","msg": "{\"nft_contract\":\"nft.testkrishu.testnet\",\"token_id\":\"hero2017\",\"expiry\":100}","memo":"rent a bicycle"}
-Liquidation: {"nft_contract_id":"nft.testkrishu.testnet", "token_id":"hero2017"}
-Withdraw: {"nft_contract_id":"nft.testkrishu.testnet", "token_id":"hero2017"}
+Minting: `{"token_id": "hero2017","receiver_id":"alice1.testnet", "metadata": {"title": "Hero-2016 model"} }`
+Approval: `{"token_id": "hero2017","account_id":"shop.testkrishu.testnet", "msg": "{\"rent\": 1, \"guarantee\": 5000, \"max_duration\": 2500}" }`
+
+Borrow: `{"receiver_id":"shop.testkrishu.testnet","amount":"5000","msg": "{\"nft_contract\":\"nft.testkrishu.testnet\",\"token_id\":\"hero2017\",\"expiry\":100}","memo":"rent a bicycle"}`
+
+Liquidation: `{"nft_contract_id":"nft.testkrishu.testnet", "token_id":"hero2017"}`
+
+Withdraw: `{"nft_contract_id":"nft.testkrishu.testnet", "token_id":"hero2017"}`
